@@ -1,0 +1,56 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: high-cloud-CRE-2026
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Paula
+    family-names: Romero Jure
+    affiliation: University of Leeds
+    orcid: 'https://orcid.org/0000-0001-5892-2137'
+    email: eepvrj@leeds.ac.uk
+repository-code: 'https://github.com/paula-rj/high-cloud-CRE-2026.git'
+abstract: >-
+  The mechanisms controlling tropical high clouds and their
+  radiative effects across the Intertropical Convergence
+  Zone (ITCZ) remain uncertain. Although global surface
+  temperature is a widely studied driver, local surface
+  temperature and aerosol effects are not always considered,
+  especially in observational studies. High cloud amount,
+  temperature, and optical depth differ markedly between the
+  West and East Pacific ITCZ, providing an ideal baseline
+  for investigating the poorly understood optical depth
+  feedback and exploring links with local drivers. Here, we
+  use 20 years of satellite data to quantify sensitivities
+  of high cloud cover and net radiative effects to global
+  surface temperature, local surface temperature and aerosol
+  optical depth jointly, across each region. We decompose
+  these sensitivities into amount, altitude and optical
+  depth, for the first time in this climatically important
+  region. We find increasing high cloud amounts with local
+  surface temperature and aerosol optical depth in both
+  regions. The high cloud net radiative effect in the West
+  Pacific is negatively correlated with aerosol variability
+  primarily due to an optical depth contribution. In the
+  East Pacific, aerosol effects are similar but arise
+  through an amount contribution. However, local surface
+  temperature dominates through a negative cloud amount
+  sensitivity. The insights offered here, although not
+  causal, support the relevance of local drivers for
+  understanding the radiative response of tropical high
+  clouds to forcing, highlight the potential role of
+  aerosols, and demonstrate that satellite observations can
+  provide a key line of evidence.
+keywords:
+  - tropical high clouds
+  - loud feedback components
+  - cloud-aerosol interaction
+  - tropical West Pacific
+  - tropical East Pacific
+  - high-cloud radiative feedback
+license: MIT
+commit: 37673ac1db3f28c1c49f9ded9b36aa649e2d6d1e
