@@ -70,7 +70,7 @@ The following datasets are used in this project:
 | Dataset |  Access |
 |---|---|
 | CERES FBCT | [CERES data](https://ceres.larc.nasa.gov/data/#fluxbycldtyp-level-3) |
-| GISTEMP |  [](https://data.giss.nasa.gov/gistemp/) |
+| GISTEMP |  [NASA Goddard Institute for Space Studies](https://data.giss.nasa.gov/gistemp/) |
 | MODIS AOD | Subset of variable used available in `data/`. MYD08 available from [Google Earth Engine](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD08_M3)|
 | MERRA2 | https://cmr.earthdata.nasa.gov/search/concepts/C1276812824-GES_DISC.html |
 ---
