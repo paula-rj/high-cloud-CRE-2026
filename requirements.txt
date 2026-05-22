@@ -1,0 +1,11 @@
+numpy==2.2.0
+cartopy 
+cmcrameri
+ipykernel
+matplotlib
+netcdf4
+pandas 
+scipy 
+statsmodels
+scikit-learn
+xarray
