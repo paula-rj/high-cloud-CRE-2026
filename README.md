@@ -53,10 +53,10 @@ The following datasets are used in this project:
 
 | Dataset |  Access |
 |---|---|
-| CERES FBCT | https://doi.org/xx.xxxx/datasetA |
+| CERES FBCT | [CERES data](https://ceres.larc.nasa.gov/data/#fluxbycldtyp-level-3) |
 | GISTEMP |  https://example.org/datasetB |
-| MODIS AOD | Available in `data/processed/` |
-
+| MODIS AOD | Subset of variable used available in `data/`. |
+| MERRA2 | |
 ---
 
 ## Running the Analysis
