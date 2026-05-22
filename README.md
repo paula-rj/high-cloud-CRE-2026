@@ -1,6 +1,7 @@
 # high-cloud-CRE-2026
 
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)
 
 This repository contains the code, data-processing workflows, and analysis notebook associated with the article:
 
