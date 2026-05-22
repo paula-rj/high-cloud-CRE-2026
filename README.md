@@ -20,21 +20,22 @@ If you use this repository, please cite:
 Software citation:
 
 ```bibtex
-@software{high-cloud-cre2026,
-  author = {Paula Romero Jure and Declan L. Finney and Amanda C. Maycock and Anna Mackie and Ross J. Herbert and Alan Blyth},
-  title = {High Cloud CRE 2026},
-  year = {2026},
-  doi = {10.xxxx/zenodo.xxxxx}
+@software{Romero_Jure_high-cloud-CRE-2026,
+author = {Romero Jure, Paula},
+license = {MIT},
+title = {{high-cloud-CRE-2026}},
+url = {https://github.com/paula-rj/high-cloud-CRE-2026.git}
 }
-```
+
+Or use the tab to the right (Cite this repository) for other citation formats. 
 
 If you are using any figures or information from the article (also shown at the `analysis.ipynb` notebook) please use the pre-print citation:
 
 ```bibtex
 @article{romerojure2026,
   title={Observational quantification of high cloud radiative sensitivity to aerosol in the Tropical Pacific},
-  author={Author, A. and Collaborator, B.},
-  journal={Journal Name},
+  author={Paula Romero Jure and Declan L. Finney and Amanda C. Maycock and Anna Mackie and Ross J. Herbert and Alan Blyth},
+  journal={},
   year={2026},
   doi={10.xxxx/xxxxx}
 }
