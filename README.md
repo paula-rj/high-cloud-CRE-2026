@@ -6,9 +6,9 @@ This repository contains the code, data-processing workflows, and analysis noteb
 
 **Observational quantification of high cloud radiative sensitivity to aerosol in the Tropical Pacific**
 
-> **Romero Jure et al. (2026)**  
+> **Paula Romero Jure, Declan L. Finney, Amanda C. Maycock, Anna Mackie, Ross J. Herbert, and Alan Blyth**  
 > Journal of Geosciences Research: Atmosphere  
-> Pre-print:
+> Pre-print here:
 
 ---
 
@@ -20,7 +20,7 @@ Software citation:
 
 ```bibtex
 @software{high-cloud-cre2026,
-  author = {P. Romero Jure},
+  author = {Paula Romero Jure and Declan L. Finney and Amanda C. Maycock and Anna Mackie and Ross J. Herbert and Alan Blyth},
   title = {High Cloud CRE 2026},
   year = {2026},
   doi = {10.xxxx/zenodo.xxxxx}
