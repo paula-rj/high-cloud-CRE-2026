@@ -10,7 +10,36 @@ This repository contains the code, data-processing workflows, and analysis noteb
 > Journal of Geosciences Research: Atmosphere  
 > Pre-print:
 
+---
 
+## Citation
+
+If you use this repository, please cite:
+
+Software citation:
+
+```bibtex
+@software{high-cloud-cre2026,
+  author = {P. Romero Jure},
+  title = {High Cloud CRE 2026},
+  year = {2026},
+  doi = {10.xxxx/zenodo.xxxxx}
+}
+```
+
+If you are using any figures or information from the article (also shown at the `analysis.ipynb` notebook) please use the pre-print citation:
+
+```bibtex
+@article{romerojure2026,
+  title={Observational quantification of high cloud radiative sensitivity to aerosol in the Tropical Pacific},
+  author={Author, A. and Collaborator, B.},
+  journal={Journal Name},
+  year={2026},
+  doi={10.xxxx/xxxxx}
+}
+```
+
+---
 ## Installation
 
 ### Option 1 — Conda 
@@ -48,45 +77,12 @@ The following datasets are used in this project:
 
 ## Running the Analysis
 
-### Reproduce all results
-
-```bash
-python run_analysis.py
-```
-
-### Run notebooks
-
 The analysis and workflows for producing the figures in the article can be found at the `analysis.ipynb` notebook.
-The methods used in this notebook and explained in the Methods section of the article can be found at `methods.py`.
 
----
+You'll need to download the data from the links provided above. 
 
-## Citation
+The methods used in this notebook, as explained in the Methods section of the article, can be found in `methods.py`.
 
-If you use this repository, please cite:
-
-Software citation:
-
-```bibtex
-@software{high-cloud-cre2026,
-  author = {P. Romero Jure},
-  title = {High Cloud CRE 2026},
-  year = {2026},
-  doi = {10.xxxx/zenodo.xxxxx}
-}
-```
-
-If you are using any figures or information from the article (also shown at the `analysis.ipynb` notebook) please use the pre-print citation:
-
-```bibtex
-@article{romerojure2026,
-  title={Observational quantification of high cloud radiative sensitivity to aerosol in the Tropical Pacific},
-  author={Author, A. and Collaborator, B.},
-  journal={Journal Name},
-  year={2026},
-  doi={10.xxxx/xxxxx}
-}
-```
 
 ---
 
