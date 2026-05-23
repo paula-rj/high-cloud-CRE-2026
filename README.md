@@ -2,6 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 ![Python](https://img.shields.io/badge/python-3.12%2B-blue.svg)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/paula-rj/high-cloud-CRE-2026.git/main?urlpath=%2Fdoc%2Ftree%2Fanalysis-high-cloud-cre.ipynb)
 
 This repository contains the code, data-processing workflows, and analysis notebook associated with the article:
 
