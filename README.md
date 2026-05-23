@@ -69,12 +69,13 @@ jupyter lab
 
 The following datasets are used in this project:
 
-| Dataset |  Access |
-|---|---|
-| CERES FBCT | [CERES data](https://ceres.larc.nasa.gov/data/#fluxbycldtyp-level-3) |
-| GISTEMP |  [NASA Goddard Institute for Space Studies](https://data.giss.nasa.gov/gistemp/) |
-| MODIS AOD | Subset of variable used available in `data/`. MYD08 available from [Google Earth Engine](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD08_M3)|
-| MERRA2 | https://cmr.earthdata.nasa.gov/search/concepts/C1276812824-GES_DISC.html |
+| Dataset |  Access link | DOI | Related article |
+|---|---|---|---|
+| CERES Flux By Cloud Type (FBCT) | [CERES data](https://ceres.larc.nasa.gov/data/#fluxbycldtyp-level-3) | 10.5067/Terra-Aqua/CERES/FLUXBYCLDTYP-MONTH L3.004A | |
+| GISTEMP GMST |  [NASA Goddard Institute for Space Studies](https://data.giss.nasa.gov/gistemp/) | | |
+| Collection 6 MODIS aerosol products | Subset of variable "Aerosol Optical Depth Average Ocean Quality Assured Mean of Means", used in this analysis, is conveniently available in the `data/` directory of this repository. MYD08 is available from [Google Earth Engine](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD08_M3)| 10.5067/MODIS/561
+MYD08 M3.061| |
+| MERRA2 | [Global Modeling and Assimilation Office (GMAO)](https://cmr.earthdata.nasa.gov/search/concepts/C1276812824-GES_DISC.html) | | |
 ---
 
 ## Running the Analysis
