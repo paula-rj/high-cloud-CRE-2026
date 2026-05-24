@@ -16,9 +16,11 @@ This repository contains the code, data-processing workflows, and analysis noteb
 
 ## Citation
 
-If you use this repository, please cite:
-
 Software citation:
+
+If you use this repository, please use the **Cite this repository** tab to the right to copy the citation to your clipboard.
+
+Or copy it on Bibtex format from here
 
 ```bibtex
 @software{Romero_Jure_high-cloud-CRE-2026,
@@ -27,10 +29,9 @@ license = {MIT},
 title = {{high-cloud-CRE-2026}},
 url = {https://github.com/paula-rj/high-cloud-CRE-2026.git}
 }
+```
 
-Or use the tab to the right (Cite this repository) for other citation formats. 
-
-If you are using any figures or information from the article (also shown at the `analysis.ipynb` notebook) please use the pre-print citation:
+If you are using any figures or information from the article (also shown at the `analysis.ipynb` notebook), please use the pre-print citation
 
 ```bibtex
 @article{romerojure2026,
@@ -43,7 +44,13 @@ If you are using any figures or information from the article (also shown at the 
 ```
 
 ---
-## Installation
+## Running the analysis
+
+1- Download the data (Links on Data Availability below).
+
+2- Clone or install the repository 
+
+3- Create a virtual environment to run it. Here are some options:
 
 ### Option 1 — Conda 
 
@@ -55,14 +62,18 @@ conda activate high-cloud-cre
 ### Option 2 — pip
 
 ```bash
+python3.12 -m venv high-cloud-cre
+source high-cloud-cre/bin/activate
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
+This will ensure the correct dependencies are installed to run the analysis notebook. 
 
-### Launch Jupyter
-
+4- Update the kernel on the Jupyter notebook.
 ```bash
-jupyter lab
+python -m ipykernel install --user --name=high-cloud-cre --display-name "Python (high-cloud-cre)"
 ```
+5- Restart the kernel and choose Python (high-cloud-cre) from the kernel options.
 
 ---
 
@@ -74,8 +85,7 @@ The following datasets are used in this project:
 |---|---|---|---|
 | CERES Flux By Cloud Type (FBCT) | [CERES data](https://ceres.larc.nasa.gov/data/#fluxbycldtyp-level-3) | 10.5067/Terra-Aqua/CERES/FLUXBYCLDTYP-MONTH L3.004A | |
 | GISTEMP GMST |  [NASA Goddard Institute for Space Studies](https://data.giss.nasa.gov/gistemp/) | | |
-| Collection 6 MODIS aerosol products | Subset of variable "Aerosol Optical Depth Average Ocean Quality Assured Mean of Means", used in this analysis, is conveniently available in the `data/` directory of this repository. MYD08 is available from [Google Earth Engine](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD08_M3)| 10.5067/MODIS/561
-MYD08 M3.061| |
+| Collection 6 MODIS aerosol products | Subset of variable "Aerosol Optical Depth Average Ocean Quality Assured Mean of Means", used in this analysis, is conveniently available in the `data/` directory of this repository. MYD08 is available from [Google Earth Engine](https://developers.google.com/earth-engine/datasets/catalog/MODIS_061_MYD08_M3)| 10.5067/MODIS/561MYD08 M3.061| |
 | MERRA2 | [Global Modeling and Assimilation Office (GMAO)](https://cmr.earthdata.nasa.gov/search/concepts/C1276812824-GES_DISC.html) | | |
 ---
 
